@@ -1,0 +1,39 @@
+.item {
+  text-align: left;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  width: 300px;
+  padding: 0;
+}
+
+.item__checkbox {
+  margin: 0;
+  margin-right: 12px;
+  padding: 0;
+}
+
+.item__line {
+  height: 33px;
+  padding: 0;
+  font-size: 15px;
+}
+
+.input {
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 0.5px solid rgb(107, 21, 21);
+}
+
+.input:focus {
+  border: none;
+  outline: 2px solid rgb(107, 21, 21);
+}
+
+.text {
+  line-height: 33px;
+  padding: 0;
+  margin: 0;
+}
